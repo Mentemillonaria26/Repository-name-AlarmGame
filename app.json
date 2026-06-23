@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "AlarmGame",
+    "slug": "alarm-game",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a2e"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a1a2e"
+      },
+      "package": "com.tuusuario.alarmgame",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "plugins": [
+        "expo-speech-recognition"
+      ]
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.tuusuario.alarmgame",
+      "infoPlist": {
+        "NSSpeechRecognitionUsageDescription": "Usamos tu voz para desactivar la alarma diciendo la frase correcta.",
+        "NSMicrophoneUsageDescription": "Necesitamos el micrófono para escucharte y desactivar la alarma con la voz."
+      }
+    },
+    "plugins": [
+      "expo-speech-recognition"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "REEMPLAZA-CON-TU-PROJECT-ID"
+      }
+    }
+  }
+}
