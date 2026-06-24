@@ -17,18 +17,16 @@
         "foregroundImage": "./adaptive-icon.png",
         "backgroundColor": "#1a1a2e"
       },
-      "package": "com.tuusuario.alarmgame",
-      "versionCode": 1,
+      "package": "com.mentemillonaria.alarmgame",
+      "versionCode": 2,
       "permissions": [
-        "android.permission.RECORD_AUDIO"
-      ],
-      "plugins": [
-        "expo-speech-recognition"
+        "android.permission.RECORD_AUDIO",
+        "android.permission.RECEIVE_BOOT_COMPLETED"
       ]
     },
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.tuusuario.alarmgame",
+      "bundleIdentifier": "com.mentemillonaria.alarmgame",
       "infoPlist": {
         "NSSpeechRecognitionUsageDescription": "Usamos tu voz para desactivar la alarma diciendo la frase correcta.",
         "NSMicrophoneUsageDescription": "Necesitamos el micrófono para escucharte y desactivar la alarma con la voz."
